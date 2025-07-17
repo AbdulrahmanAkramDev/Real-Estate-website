@@ -1,5 +1,5 @@
 import CountUp from "react-countup";
-import "./hero.css";
+import "./Hero.css";
 import { HiLocationMarker } from 'react-icons/hi'
 import { motion } from "framer-motion";
 const Hero = () => {
