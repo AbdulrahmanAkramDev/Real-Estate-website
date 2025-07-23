@@ -3,6 +3,7 @@
 }
 .r-head {
   margin-bottom: 2rem;
+  margin-left: 2rem;
 }
 
 .r-card {
@@ -47,7 +48,7 @@
   position: absolute;
   gap: 1rem;
   top: -4rem;
-  right: 0;
+  right: 2rem;
 }
 .r-button button {
   font-size: 1rem;
