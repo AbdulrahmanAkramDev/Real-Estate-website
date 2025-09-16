@@ -16,17 +16,17 @@ const Header = () => {
                     getMenuStyles(menuOpened)
                 }>
 
-                    <a href=""> Residencies</a>
+                    <a href="#residencies"> Residencies</a>
 
 
-                    <a href=""> Our Value</a>
+                    <a href="#value"> Our Value</a>
 
 
-                    <a href=""> Get Started </a>
+                    <a href="#start"> Get Started </a>
 
 
 
-                    <a href="">Contact Us</a>
+                    <a href="#contact">Contact Us</a>
 
 
 

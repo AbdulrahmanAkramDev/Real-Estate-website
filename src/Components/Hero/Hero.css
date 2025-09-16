@@ -70,7 +70,19 @@
 .stat > :nth-child(1) > :last-child {
   color: orange;
 }
-
+@media (max-width: 983px) {
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-header {
+    text-align: center;
+  }
+  .hero-para {
+    padding-left: 30px;
+  }
+}
 @media (max-width: 768px) {
   .hero-container {
     margin-top: 2rem;

@@ -13,13 +13,15 @@ const Hero = () => {
                             initial={{ y: "2rem", opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 2, type: "spring" }}
-                        >
+                            className="hero-header">
+
                             Discover <br /> Most Suitable <br /> Property
+
                         </motion.h1>
                     </div>
                     <div className="flexColStart hero-des">
-                        <span className="secondaryText">Find a variety of properties that suit you very easilty</span>
-                        <span className="secondaryText">Forget all difficulties in finding a residence for you </span>
+                        <span className="hero-para secondaryText">Find a variety of properties that suit you very easilty</span>
+                        <span className="hero-para secondaryText">Forget all difficulties in finding a residence for you </span>
                     </div>
                     <div className="flexCenter search-bar">
                         <HiLocationMarker color="var(--blue)" size={25} />
